@@ -1,4 +1,4 @@
-FROM nginx:1.11.10-alpine
+FROM nginx:1.11.12-alpine
 
 ENV PUBLIC_PORT 80
 ENV PUBLIC_SERVER_NAME localhost
