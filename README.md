@@ -5,7 +5,7 @@ Usage in a docker-compose file :
 
 ```yml
 nginx:
-  image: euranova/nginx-proxy-basic-auth:1.11.10-alpine
+  image: euranova/nginx-proxy-basic-auth:latest
   volumes:
   # a htpasswd file should be provided
   - ./htpasswd:/htpasswd
